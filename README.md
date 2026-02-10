@@ -85,6 +85,25 @@ house_rent_prediction/
 
 ---
 
+Conclusion
+
+This project demonstrates a complete end-to-end regression workflow,
+from data exploration and preprocessing to model training, evaluation, and deployment.
+
+The use of log transformation combined with a Random Forest model significantly improves prediction accuracy, making the solution suitable for real-world rental price estimation tasks.
+
+---
+Future Improvements
+
+Hyperparameter tuning
+
+Additional feature engineering
+
+Model comparison with Gradient Boosting and XGBoost
+
+---
+
+
 ## How to Run Locally
 
 ```bash
@@ -93,19 +112,3 @@ cd house-rent-prediction
 pip install -r requirements.txt
 streamlit run app.py
 ---
-
-Conclusion
-
-This project demonstrates a complete end-to-end regression workflow,
-from data exploration and preprocessing to model training, evaluation, and deployment.
-
-The use of log transformation combined with a Random Forest model significantly improves prediction accuracy, making the solution suitable for real-world rental price estimation tasks.
----
-
-Future Improvements
-
-Hyperparameter tuning
-
-Additional feature engineering
-
-Model comparison with Gradient Boosting and XGBoost
